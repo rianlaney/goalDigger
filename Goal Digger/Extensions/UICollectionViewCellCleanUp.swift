@@ -5,4 +5,11 @@
 //  Created by rian on 7/20/23.
 //
 
-import Foundation
+import UIKit
+
+extension UICollectionViewCell {
+    
+    func removeViews() {
+        contentView.subviews.forEach { $0.removeFromSuperview() }
+    }
+}

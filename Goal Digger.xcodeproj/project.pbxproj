@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96073A1A2A6F51B20099C8FE /* PomodoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96073A192A6F51B20099C8FE /* PomodoroViewController.swift */; };
 		965FC24C2A67231900309AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965FC24B2A67231900309AAD /* AppDelegate.swift */; };
 		965FC24E2A67231900309AAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965FC24D2A67231900309AAD /* SceneDelegate.swift */; };
 		965FC2502A67231900309AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965FC24F2A67231900309AAD /* ViewController.swift */; };
@@ -14,9 +15,32 @@
 		965FC2562A67231900309AAD /* Goal_Digger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 965FC2542A67231900309AAD /* Goal_Digger.xcdatamodeld */; };
 		965FC2582A67231B00309AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965FC2572A67231B00309AAD /* Assets.xcassets */; };
 		965FC25B2A67231B00309AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965FC2592A67231B00309AAD /* LaunchScreen.storyboard */; };
+		9662EF9A2A71A9BD001C92C5 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662EF962A71A9BD001C92C5 /* Task+CoreDataClass.swift */; };
+		9662EF9B2A71A9BD001C92C5 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662EF972A71A9BD001C92C5 /* Task+CoreDataProperties.swift */; };
+		9662EF9C2A71A9BD001C92C5 /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662EF982A71A9BD001C92C5 /* Goal+CoreDataClass.swift */; };
+		9662EF9D2A71A9BD001C92C5 /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662EF992A71A9BD001C92C5 /* Goal+CoreDataProperties.swift */; };
+		9662EF9F2A71C3D1001C92C5 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662EF9E2A71C3D1001C92C5 /* CoreData.swift */; };
+		9677C2342A6833A700734DD3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2332A6833A700734DD3 /* User.swift */; };
+		9677C2362A6834BE00734DD3 /* MotivationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2352A6834BE00734DD3 /* MotivationManager.swift */; };
+		9677C2382A683B1E00734DD3 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2372A683B1E00734DD3 /* RecommendationViewController.swift */; };
+		9677C23A2A69B51D00734DD3 /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2392A69B51D00734DD3 /* AddGoalViewController.swift */; };
+		9677C23C2A69D1BC00734DD3 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C23B2A69D1BC00734DD3 /* FormModel.swift */; };
+		9677C23F2A69D70E00734DD3 /* FormContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C23E2A69D70E00734DD3 /* FormContentBuilder.swift */; };
+		9677C2422A69D92D00734DD3 /* UICollectionViewIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2412A69D92D00734DD3 /* UICollectionViewIdentifier.swift */; };
+		9677C2442A69D9F000734DD3 /* UICollectionViewCellCleanUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2432A69D9F000734DD3 /* UICollectionViewCellCleanUp.swift */; };
+		9677C2472A69DAE400734DD3 /* FormButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2462A69DAE400734DD3 /* FormButtonCollectionViewCell.swift */; };
+		9677C2492A69E21100734DD3 /* FormTextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C2482A69E21100734DD3 /* FormTextCollectionViewCell.swift */; };
+		9677C24E2A6B082F00734DD3 /* FormCompsitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677C24D2A6B082F00734DD3 /* FormCompsitionLayout.swift */; };
+		96DDEEE82A682DBE00271809 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDEEE72A682DBE00271809 /* LoginViewController.swift */; };
+		96DDEEEA2A682DD200271809 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDEEE92A682DD200271809 /* SignUpViewController.swift */; };
+		96DDEEF02A682E4D00271809 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDEEEF2A682E4D00271809 /* WeeklyViewController.swift */; };
+		96DDEEF22A682E8300271809 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDEEF12A682E8300271809 /* GoalViewController.swift */; };
+		96DDEEF42A682E9700271809 /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDEEF32A682E9700271809 /* MotivationViewController.swift */; };
+		96DDEEF72A682EF000271809 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDEEF62A682EF000271809 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96073A192A6F51B20099C8FE /* PomodoroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewController.swift; sourceTree = "<group>"; };
 		965FC2482A67231900309AAD /* Goal Digger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Digger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		965FC24B2A67231900309AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		965FC24D2A67231900309AAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +50,28 @@
 		965FC2572A67231B00309AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		965FC25A2A67231B00309AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965FC25C2A67231B00309AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9662EF962A71A9BD001C92C5 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9662EF972A71A9BD001C92C5 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9662EF982A71A9BD001C92C5 /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9662EF992A71A9BD001C92C5 /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9662EF9E2A71C3D1001C92C5 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		9677C2332A6833A700734DD3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9677C2352A6834BE00734DD3 /* MotivationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationManager.swift; sourceTree = "<group>"; };
+		9677C2372A683B1E00734DD3 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		9677C2392A69B51D00734DD3 /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		9677C23B2A69D1BC00734DD3 /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		9677C23E2A69D70E00734DD3 /* FormContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormContentBuilder.swift; sourceTree = "<group>"; };
+		9677C2412A69D92D00734DD3 /* UICollectionViewIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewIdentifier.swift; sourceTree = "<group>"; };
+		9677C2432A69D9F000734DD3 /* UICollectionViewCellCleanUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellCleanUp.swift; sourceTree = "<group>"; };
+		9677C2462A69DAE400734DD3 /* FormButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		9677C2482A69E21100734DD3 /* FormTextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextCollectionViewCell.swift; sourceTree = "<group>"; };
+		9677C24D2A6B082F00734DD3 /* FormCompsitionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCompsitionLayout.swift; sourceTree = "<group>"; };
+		96DDEEE72A682DBE00271809 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		96DDEEE92A682DD200271809 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		96DDEEEF2A682E4D00271809 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		96DDEEF12A682E8300271809 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		96DDEEF32A682E9700271809 /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
+		96DDEEF62A682EF000271809 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +104,103 @@
 		965FC24A2A67231900309AAD /* Goal Digger */ = {
 			isa = PBXGroup;
 			children = (
+				9677C24C2A6B047A00734DD3 /* Layout */,
+				9677C2452A69DA7B00734DD3 /* CollectionViewCells */,
+				9677C2402A69D8F600734DD3 /* Extensions */,
+				9677C23D2A69D6EB00734DD3 /* FormContent */,
+				9677C2302A68316A00734DD3 /* Model */,
+				96DDEEF52A682ED700271809 /* Manager */,
+				96DDEEE62A682D7D00271809 /* Controller */,
+				96DDEEE52A682D3E00271809 /* View */,
 				965FC24B2A67231900309AAD /* AppDelegate.swift */,
 				965FC24D2A67231900309AAD /* SceneDelegate.swift */,
-				965FC24F2A67231900309AAD /* ViewController.swift */,
-				965FC2512A67231900309AAD /* Main.storyboard */,
 				965FC2572A67231B00309AAD /* Assets.xcassets */,
 				965FC2592A67231B00309AAD /* LaunchScreen.storyboard */,
 				965FC25C2A67231B00309AAD /* Info.plist */,
 				965FC2542A67231900309AAD /* Goal_Digger.xcdatamodeld */,
 			);
 			path = "Goal Digger";
+			sourceTree = "<group>";
+		};
+		9677C2302A68316A00734DD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9662EF962A71A9BD001C92C5 /* Task+CoreDataClass.swift */,
+				9662EF972A71A9BD001C92C5 /* Task+CoreDataProperties.swift */,
+				9662EF982A71A9BD001C92C5 /* Goal+CoreDataClass.swift */,
+				9662EF992A71A9BD001C92C5 /* Goal+CoreDataProperties.swift */,
+				9677C2332A6833A700734DD3 /* User.swift */,
+				9677C2352A6834BE00734DD3 /* MotivationManager.swift */,
+				9677C23B2A69D1BC00734DD3 /* FormModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9677C23D2A69D6EB00734DD3 /* FormContent */ = {
+			isa = PBXGroup;
+			children = (
+				9677C23E2A69D70E00734DD3 /* FormContentBuilder.swift */,
+			);
+			path = FormContent;
+			sourceTree = "<group>";
+		};
+		9677C2402A69D8F600734DD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9677C2412A69D92D00734DD3 /* UICollectionViewIdentifier.swift */,
+				9677C2432A69D9F000734DD3 /* UICollectionViewCellCleanUp.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9677C2452A69DA7B00734DD3 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9677C2462A69DAE400734DD3 /* FormButtonCollectionViewCell.swift */,
+				9677C2482A69E21100734DD3 /* FormTextCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		9677C24C2A6B047A00734DD3 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9677C24D2A6B082F00734DD3 /* FormCompsitionLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		96DDEEE52A682D3E00271809 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				965FC2512A67231900309AAD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96DDEEE62A682D7D00271809 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				965FC24F2A67231900309AAD /* ViewController.swift */,
+				96DDEEE72A682DBE00271809 /* LoginViewController.swift */,
+				96DDEEE92A682DD200271809 /* SignUpViewController.swift */,
+				96DDEEEF2A682E4D00271809 /* WeeklyViewController.swift */,
+				96DDEEF12A682E8300271809 /* GoalViewController.swift */,
+				96DDEEF32A682E9700271809 /* MotivationViewController.swift */,
+				9677C2372A683B1E00734DD3 /* RecommendationViewController.swift */,
+				9677C2392A69B51D00734DD3 /* AddGoalViewController.swift */,
+				96073A192A6F51B20099C8FE /* PomodoroViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96DDEEF52A682ED700271809 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				96DDEEF62A682EF000271809 /* NetworkManager.swift */,
+				9662EF9E2A71C3D1001C92C5 /* CoreData.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +274,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DDEEE82A682DBE00271809 /* LoginViewController.swift in Sources */,
+				9677C2382A683B1E00734DD3 /* RecommendationViewController.swift in Sources */,
+				9677C2362A6834BE00734DD3 /* MotivationManager.swift in Sources */,
+				96DDEEEA2A682DD200271809 /* SignUpViewController.swift in Sources */,
+				9662EF9F2A71C3D1001C92C5 /* CoreData.swift in Sources */,
+				9677C2442A69D9F000734DD3 /* UICollectionViewCellCleanUp.swift in Sources */,
+				96DDEEF02A682E4D00271809 /* WeeklyViewController.swift in Sources */,
 				965FC2562A67231900309AAD /* Goal_Digger.xcdatamodeld in Sources */,
+				96DDEEF72A682EF000271809 /* NetworkManager.swift in Sources */,
+				9662EF9D2A71A9BD001C92C5 /* Goal+CoreDataProperties.swift in Sources */,
 				965FC2502A67231900309AAD /* ViewController.swift in Sources */,
+				9677C2422A69D92D00734DD3 /* UICollectionViewIdentifier.swift in Sources */,
+				96DDEEF22A682E8300271809 /* GoalViewController.swift in Sources */,
+				9662EF9A2A71A9BD001C92C5 /* Task+CoreDataClass.swift in Sources */,
+				9677C2342A6833A700734DD3 /* User.swift in Sources */,
 				965FC24C2A67231900309AAD /* AppDelegate.swift in Sources */,
+				9677C24E2A6B082F00734DD3 /* FormCompsitionLayout.swift in Sources */,
+				9662EF9C2A71A9BD001C92C5 /* Goal+CoreDataClass.swift in Sources */,
+				9677C23A2A69B51D00734DD3 /* AddGoalViewController.swift in Sources */,
+				9677C23F2A69D70E00734DD3 /* FormContentBuilder.swift in Sources */,
+				9677C2472A69DAE400734DD3 /* FormButtonCollectionViewCell.swift in Sources */,
+				96DDEEF42A682E9700271809 /* MotivationViewController.swift in Sources */,
 				965FC24E2A67231900309AAD /* SceneDelegate.swift in Sources */,
+				96073A1A2A6F51B20099C8FE /* PomodoroViewController.swift in Sources */,
+				9677C2492A69E21100734DD3 /* FormTextCollectionViewCell.swift in Sources */,
+				9662EF9B2A71A9BD001C92C5 /* Task+CoreDataProperties.swift in Sources */,
+				9677C23C2A69D1BC00734DD3 /* FormModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,11 +449,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Goal Digger/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +478,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Goal Digger/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

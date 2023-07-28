@@ -5,4 +5,9 @@
 //  Created by rian on 7/19/23.
 //
 
-import Foundation
+import UIKit
+
+struct User {
+    var email: String
+    var password: String
+}

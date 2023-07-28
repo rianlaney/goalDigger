@@ -2,7 +2,7 @@
 //  Goal+CoreDataProperties.swift
 //  Goal Digger
 //
-//  Created by rian on 7/24/23.
+//  Created by rian on 7/26/23.
 //
 //
 
@@ -16,9 +16,25 @@ extension Goal {
         return NSFetchRequest<Goal>(entityName: "Goal")
     }
 
-    @NSManaged public var task: String?
-    @NSManaged public var time: Int64
-    @NSManaged public var completion: Bool
+    @NSManaged public var goalName: String?
+    @NSManaged public var tasks: NSSet?
+
+}
+
+// MARK: Generated accessors for tasks
+extension Goal {
+
+    @objc(addTasksObject:)
+    @NSManaged public func addToTasks(_ value: Task)
+
+    @objc(removeTasksObject:)
+    @NSManaged public func removeFromTasks(_ value: Task)
+
+    @objc(addTasks:)
+    @NSManaged public func addToTasks(_ values: NSSet)
+
+    @objc(removeTasks:)
+    @NSManaged public func removeFromTasks(_ values: NSSet)
 
 }
 
